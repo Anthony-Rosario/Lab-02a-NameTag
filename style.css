@@ -1,5 +1,4 @@
-. {
-    margin: auto;
+* {
     box-sizing: border-box;
 }
 
@@ -117,9 +116,6 @@ footer {
     background-color: #da4167;
 }
 
-*{
-    box-sizing: border-box;
-}
 
 .border-line {
     border: solid 1px black;

@@ -112,6 +112,17 @@ h4 {
 
 }
 
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    right: 500px;
+    height: 100px;
+    width: 100px;
+    font-weight: 700;
+}
+
 .button2 {
     display:inline-block;
     padding:0.46em 1.6em;
@@ -197,6 +208,8 @@ header {
     grid-template-columns: fr auto;
     display: grid;
     background-color: #2e4057;
+    font-size: ;
+    
 }
 
 main {
@@ -217,6 +230,12 @@ footer {
 
 .border-line {
     border: solid auto white;
+    text-align: center;
+    justify-content: center;
+    font-weight: 800;
+    font-family: 'true_liesregular';
+    top: 100px;
+    
 }
 
 .sidebar {

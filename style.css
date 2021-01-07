@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    
 }
 
 body, html {
@@ -7,7 +8,7 @@ body, html {
     width: 100%;
     height: 100%;
     padding: 0;
-    margin: 0;
+    margin: 0;    
 
 }
 
@@ -18,7 +19,7 @@ body, html {
     align-items: center;
     width: 450px;
     height: 300px;
-    background:rgb(187, 13, 13);
+    background:rgb(97, 58, 58);
     border-color: rgb(12, 114, 46);
     border-style: solid;
     border-width: 3px;
@@ -35,13 +36,33 @@ figure {
 
 
 
+.fontC {
+    display: grid;
+    background-color: #229c55;
+    
+}
+
+.pronouns {
+    bottom: 10px;
+    
+    width: auto;
+    text-align: bottom;
+    font-size: 30px;
+    padding: 0px;
+    justify-content: bottom;
+    align-items: bottom;
+    margin: 0px;
+    font-size: 150%;
+    color: rgb(0, 0, 0);
+}
+
 h1 {
     font-family: 'Cabin', sans-serif;
     font-size: 2.7em;
     font-weight: 700;
     line-height: 0%;
     position: relative;
-    top: -5px;
+    top: 20px;
 
 }
 
@@ -57,12 +78,88 @@ h2 {
 
 h3 {
     font-family: 'Brush Script MT', cursive;
+    font-size: 3em;
+    bottom: 10px;
+    line-height: 0%;
+    position: absolute;
+    text-align: center;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+h4 {
+    font-family: 'Brush Script MT', cursive;
     font-size: 2em;
     line-height: 0%;
     position: absolute;
+    text-align: center;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 10px;
+}
+
+#user-input, #pronoun-input, #input-button, #button3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     
 
 }
+
+.button2 {
+    display:inline-block;
+    padding:0.46em 1.6em;
+    border:0.1em solid #050505;
+    margin:0 0.2em 0.2em 0;
+    border-radius:.5em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight: 700;
+    color:#000000;
+    background-color:#1aa0a0;
+    text-align:center;
+    transition: all 0.15s;
+}
+
+
+.button2:hover{
+    text-shadow: 0 0 2em rgb(32, 97, 151);
+    color:#302086;
+    border-color:#b83577;
+    background-color: #229c55;
+}
+
+
+.button3 {
+    display:inline-block;
+    padding:0.46em 1.6em;
+    border:0.1em solid #000000;
+    margin:0 0.2em 0.2em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight: 700;
+    color:#000000;
+    background-color:#1aa0a0;
+    text-align:center;
+    transition: all 0.15s;
+}
+
+.button3:hover{
+    text-shadow: 0 0 2em rgb(32, 97, 151);
+    color:#302086;
+    border-color:#b83577;
+    background-color: #229c55;
+}
+
+
 
 .name-here {
     width: 100%;
@@ -78,7 +175,7 @@ h3 {
 
 }
 
-footer {
+.footer-nametag {
     height: 105px;
 
 }
@@ -87,6 +184,8 @@ footer {
     justify-content: center;
     align-items: center;
     display: flex;
+    width: auto;
+    height: auto;
 }
 
 .container {
@@ -95,7 +194,7 @@ footer {
     grid-template-rows: 1fr 2fr .5fr;
 }
 header {
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: fr auto;
     display: grid;
     background-color: #2e4057;
 }
@@ -103,27 +202,27 @@ header {
 main {
     display: grid;
     grid-template-columns: 5fr 1fr;
-    background-color: #f6d8ae;
+    background-color: #000000;
 }
 
-.header-left {
-    background-color: #f4d35e;
-}
 
 footer {
     display: grid;
     grid-template-columns: 1fr auto;
-    background-color: #da4167;
+    background-color: #229c55;
+    height: auto;
 }
 
 
+
 .border-line {
-    border: solid 1px black;
+    border: solid auto white;
 }
 
 .sidebar {
     display: grid;
-    grid-template-columns: auto auto;
-    background-color: #083d77;
+    grid-template-columns: 1fr 5fr;
+    background-color: #2a2e33;
+    
 
 }
